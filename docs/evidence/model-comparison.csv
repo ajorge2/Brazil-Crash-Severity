@@ -1,0 +1,6 @@
+"model","formula","df","AIC"
+"model_5","fatal ~ cause_of_accident + weather_timestamp + road_delineation +      weather_condition",105,177765.310388907
+"model_4","fatal ~ cause_of_accident + weather_timestamp + road_delineation",96,177917.610195716
+"model_3","fatal ~ cause_of_accident + weather_timestamp + weather_condition",97,178988.290364729
+"model_1","fatal ~ cause_of_accident + weather_timestamp",88,179126.826225
+"model_2","fatal ~ cause_of_accident + weather_condition",94,181227.492073803
