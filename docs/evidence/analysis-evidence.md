@@ -1,4 +1,4 @@
-# Brazil crash-severity resume evidence
+# Brazil crash-severity evidence
 
 - Source rows: 463,152
 - Modeling rows: 404,508
@@ -10,9 +10,9 @@
 - Lead association: pedestrian-walking-in-road crashes had 11.52x the adjusted odds of fatality versus alcohol-related crashes (95% Wald CI 10.23-12.98; p < 2e-16)
 - Sensitivity to adjustment: the odds ratio shrank from 12.12 unadjusted (95% CI 10.78-13.64) to 11.52 adjusted, a 4.9% change
 
-## Resume-ready claim
+## Supported result summary
 
-Analyzed 463,152 Brazilian crash records with multivariable logistic regression; found crashes attributed to pedestrians walking in the road had 11.52x the adjusted odds of fatality versus alcohol-related crashes (95% CI 10.23-12.98). The estimate shrank 4.9% from its unadjusted value after controlling for time of day, road delineation, and weather.
+Analyzed 463,152 Brazilian crash records with multivariable logistic regression; crashes attributed to pedestrians walking in the road had 11.52x the adjusted odds of fatality versus alcohol-related crashes (95% CI 10.23-12.98). The estimate shrank 4.9% from its unadjusted value after controlling for time of day, road delineation, and weather.
 
 ## Interpretation boundary
 

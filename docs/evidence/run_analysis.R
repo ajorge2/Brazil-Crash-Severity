@@ -128,7 +128,7 @@ write.csv(
 )
 
 evidence <- c(
-  "# Brazil crash-severity resume evidence",
+  "# Brazil crash-severity analysis evidence",
   "",
   sprintf("- Source rows: %s", format(nrow(raw), big.mark = ",")),
   sprintf("- Modeling rows: %s", format(selected$modeling_rows, big.mark = ",")),
@@ -160,7 +160,7 @@ evidence <- c(
     abs(adjustment_change_percent)
   ),
   "",
-  "## Resume-ready claim",
+  "## Supported result summary",
   "",
   sprintf(
     "Analyzed %s Brazilian crash records with multivariable logistic regression; found crashes attributed to pedestrians walking in the road had %.2fx the adjusted odds of fatality versus alcohol-related crashes (95%% CI %.2f-%.2f). The estimate %s %.1f%% from its unadjusted value after controlling for time of day, road delineation, and weather.",
@@ -185,7 +185,7 @@ evidence <- c(
   sprintf("Rscript run_analysis.R %s .", shQuote(input_path)),
   "```"
 )
-writeLines(evidence, file.path(output_dir, "resume-evidence.md"))
+writeLines(evidence, file.path(output_dir, "analysis-evidence.md"))
 
 session <- capture.output(sessionInfo())
 writeLines(session, file.path(output_dir, "session-info.txt"))
