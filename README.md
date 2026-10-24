@@ -11,3 +11,7 @@ Rscript run_analysis.R /absolute/path/to/accidents.csv .
 ```
 
 The analysis selects the candidate logistic-regression specification with minimum AIC and reports both unadjusted and adjusted odds ratios. The result is an observational association, not a causal effect.
+
+## Privacy and licensing
+
+See [PRIVACY.md](PRIVACY.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The software license does not relicense third-party data or publications.
